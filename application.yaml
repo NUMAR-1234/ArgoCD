@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: 
-    targetRevision: HEAD
-    path: dev
-  destination: 
+    repoURL: https://github.com/NUMAR-1234/ArgoCD.git
+    targetRevision: master
+    path: sample-application
+  destination:
     server: https://kubernetes.default.svc
     namespace: sample-application
 
