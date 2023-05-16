@@ -30,6 +30,9 @@ kind: Service
 metadata:
   name: sampleloginapplication-service
 spec:
+  type: LoadBalancer
+  selector:
+    name: sampleapppod
   ports:
     - protocol: TCP
       port: 80
