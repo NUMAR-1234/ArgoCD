@@ -17,7 +17,7 @@ spec:
     spec:
       containers: 
         - name: sampleapplication
-          image: umarmukthar/loginpageapplication:2
+          image: umarmukthar/loginpageapplication:3
           ports:
             - containerPort: 3000
 
